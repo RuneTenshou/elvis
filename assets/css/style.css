@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Roboto";
+	font-size: 1rem;
+	color: #333;
+	background-color: #efefef;
+}
+aside {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 270px;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #283593;
+	border-right: 1px solid #ababaa;
+	color: #efefef;
+}
+main {
+	margin-left: 270px;
+	padding: 0 15px;
+}
+main header {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+	padding: 15px 0;
+	border-bottom: 1px solid #ababaa;
+}
+aside h1 {
+	text-align: center;
+}
+hr {
+	border: 0;
+	border-bottom: 1px solid #cdcdcd;
+}
+main header input {
+	width: 250px;
+	border-radius: 25px;
+	height: 40px;
+	font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #aaa;
+	padding: 0 15px;
+}
+i {
+	width: 20px;
+}
+.separator {
+	background-color: #0024;
+	width: 100%;
+	font-size: 0.8rem;
+	color: #efefef;
+	padding: 5px 17px;
+}
+nav a {
+	display: block;
+	width: 100%;
+	padding: 11px 25px;
+	text-decoration: none;
+	color: #fff;
+}
+section {
+	padding: 15px;
+}
+legend {
+	text-align: left;
+	padding: 15px;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+fieldset {
+	border-radius: 20px;
+	padding: 25px;
+	border: 1px solid #ababaa;
+}
+.box {
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	grid-gap: 10px;
+}
+.div4 {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.div5 {
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.div6 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.box .title {
+	font-size: 1rem;
+}
+.box .content {
+	padding: 15px 0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+}
+.chart {
+	margin: 15px 0;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+footer {
+	padding: 15px;
+	position: relative;
+}
+footer .logo {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	grid-gap: 10px;
+	margin-left: -20px;
+}
+footer .logo .item {
+	display: block;
+}
+footer .logo .item:nth-child(1) img,
+footer .logo .item:nth-child(3) img,
+footer .logo .item:nth-child(4) img {
+	width: auto;
+	height: 70px;
+}
+footer .logo .item:nth-child(2) img {
+	width: auto;
+	height: 40px;
+}
