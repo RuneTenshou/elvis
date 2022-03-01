@@ -106,7 +106,7 @@ fieldset {
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .box .title {
-	font-size: 1rem;
+	font-size: .9rem;
 }
 .box .content {
 	padding: 15px 0;
